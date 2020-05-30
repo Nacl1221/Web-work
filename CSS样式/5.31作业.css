@@ -1,0 +1,344 @@
+.all{
+	height: 1233px;
+	width: 960px;
+	margin: 0 auto;
+}
+.header{
+	height: 50.5px;
+	position: relative;
+}
+.header img{
+	float: left;
+	display: block;
+	margin-left: 184.5px;
+	margin-right: 35.5px;
+	margin-top: 16.5px;
+}
+.header>ul>li{
+	float: left;
+	padding: 16px 4px 0px 4px;
+	height: 19px;
+	margin-right: 18.5px;
+	font-size: 9px;
+}
+.header ul li a{
+	font-weight:400;
+	color:rgba(5,5,5,1);
+}
+.header>ul>li:hover{
+	border-bottom: 1px solid rgba(0,164,255,1);
+}
+.header>ul ul{
+	display: none;
+}
+.header>ul>li:hover ul{
+	display: block;
+	background-color: rgba(0,0,0,0.3);
+	height: 210px;
+	width: 95px;
+	position: absolute;
+	left: 180px;
+	top: 50.5px;
+}
+.other ul li{
+	line-height:22px;
+	font-size: 7px;
+	margin-left: 10px;
+}
+.other ul li a{
+	color: #fff;
+}
+.other ul li a:hover{
+	color: #00B4FF;
+}
+.from{
+	float: right;
+	position: absolute;
+	top: 15.5px;
+	left: 523px;
+}
+.search{
+	float: left;
+	width: 180.5px;
+	height: 20px;
+	font-size:7px;
+	padding-left: 9.5px;
+	border: 1px solid rgba(0,164,255,1);
+}
+.submit{
+	width:25.5px;
+	height:22px;
+	border: 1px solid rgba(0,164,255,1);
+	background:rgba(0,164,255,1) url(../图片/images/search.png) no-repeat center center;
+	float: left;
+}
+.header p{
+	display: block;
+	font-size:3.5px;
+	padding-left: 15.5px;
+	color:rgba(102,102,102,1);
+	position: absolute;
+	top: 22px;
+	right: 171px;
+}
+.header-bottom{
+	background-color: #1C036C;
+}
+.header-bottom img{
+	display: block;
+	margin-left: 195px;
+}
+.part{
+	width: 600px;
+	height: 763.5px;
+	position: relative;
+}
+.nav{
+	height: 30px;
+	width: 600px;
+	margin: 4px 180px;
+	box-shadow:0px 1px 2px 0px rgba(118,118,118,0.2);
+}
+.nav>ul>li{
+	float: left;
+	font-size: 8px;
+	margin: 11px 0px;
+	padding: 0px 17px;
+	border-right: 0.5px solid #BFBFBF;
+}
+.nav>ul>li>a{
+	color: #000;
+}
+.nav>ul>li a:hover{
+	color: #00A4FF;
+}
+.nav .Java{
+	border: none;
+}
+.nav .change{
+	float: right;
+	border: none;
+}
+.nav .change a{
+	color: #00A4FF;
+}
+.nav>ul ul{
+	display: none;
+}
+.nav>ul>li:hover ul{
+	display: block;
+	height: 9.5px;
+	width: 40px;
+	position: absolute;
+	left: 180px;
+	top: 52.4px;
+	font-size: 10px;
+	color: #494949;
+}
+#look-all{
+	position: absolute;
+	left: 740.5px;
+	top: 56px;
+	width: 45px;
+	height: 7px;
+	font-size: 6px;
+}
+#look-all a{
+	color: #A5A5A5;
+}
+.part-two{
+	width: 607.5px;
+	position: absolute;
+	top: 72.5px;
+	left: 180px;
+}
+.part-two ul li{
+	width:114px;
+	height:135px;
+	box-shadow:0px 1px 3px 0px rgba(118,118,118,0.5);
+	float: left;
+	margin-right: 7.5px;
+	margin-bottom: 7.5px;
+}
+.one{
+	display: block;
+	height: 17px;
+	width: 92.5px;
+	font-size: 7px;
+	margin: 12px 10px 9px 11.5px;
+}
+.people{
+	display: block;
+	height: 7px;
+	width: 90px;
+	font-size: 6px;
+	color: #999;
+	margin: 0px 43.5px 13px 11px;
+}
+.part-two ul li span{
+	color: #FF7C2D;
+}
+.part-three{
+	width: 607.5px;
+	position: absolute;
+	top: 388.5px;
+	left: 180px;
+}
+.part-three div ul li{
+	float: left;
+	font-size: 8px;
+	margin: 0 25px 10.5px 0;
+}
+.part-three div ul li a{
+	color: #868686;
+}
+.part-three div a:hover{
+	color: #00A4FF;
+}
+.part-three .left{
+	font-size: 10px;
+	color: #494949;
+	margin: 0 145.5px 10.5px 0;
+}
+.part-three .right{
+	float: right;
+}
+.part-three>ul>li{
+	width:114px;
+	height:135px;
+	box-shadow:0px 1px 3px 0px rgba(118,118,118,0.5);
+	float: left;
+	margin-right: 7.5px;
+	margin-bottom: 7.5px;
+}
+.part-three>ul>li>span{
+	color: #FF7C2D;
+}
+.two{
+	display: block;
+	height: 17px;
+	width: 92.5px;
+	font-size: 7px;
+	margin: 12px 10px 9px 11.5px;
+}
+.part-four{
+	width: 607.5px;
+	position: absolute;
+	top: 567px;
+	left: 180px;
+}
+.a{
+	display: block;
+	font-size: 10px;
+	color: #494949;
+	margin-bottom: 16.5px;
+}
+.part-four li{
+	height: 170px;
+}
+.part-four li img{
+	position: relative;
+}
+.part-four li .school{
+	position: absolute;
+	left: 12.5px;
+	top: 49.5px;
+}
+.part-four ul li .button{
+	position: absolute;
+	top: 86.5px;
+	left: 14px;
+	display: block;
+	width: 43.5px;
+	height: 12.5px;
+	border: 1px solid #F9E103;
+	font-size: 6.62px;
+	padding-left: 8.5px;
+}
+.part-four .button a{
+	color: #F9E103;
+}
+.part-four ul li{
+	float: left;
+	margin-right: 7.5px;
+	box-shadow:0px 1px 3px 0px rgba(118,118,118,0.5);
+}
+.part-four ul li div{
+	position: absolute;
+	top: 130px;
+	height: 71px;
+	width: 114px;
+	background: rgba(0,0,0,0.5);
+}
+.part-four ul li .name{
+	height: 9px;
+	font-size: 7px;
+	font-weight: 400;
+	color: #fff;
+}
+.part-four ul li span{
+	font-size: 9px;
+	font-weight: bold;
+}
+.introduce{
+	position: relative;
+}
+.name{
+	position: absolute;
+	top: 10.5px;
+	left: 14.5px;
+}
+.part-four ul li .work{
+	display: block;
+	font-size: 6px;
+	color: #fff;
+	height: 27px;
+	margin: 25.5px 14px 9px 12.5px;
+}
+.end{
+	width:959px;
+	height:209px;
+	position: relative;
+}
+.end-left{
+	position: absolute;
+	top: 62px;
+	left: 190px;
+}
+.end-left p{
+	display: block;
+	margin-top: 17.5px;
+	margin-bottom: 16.5px;
+	top: 97.5px;
+	left: 190px;
+	font-size: 6px;
+}
+.end-left .APP{
+	display: block;
+	border: 1px solid #00A4FF;
+	width: 60px;
+	height: 18px;
+}
+.end-left .APP a{
+	display: block;
+	font-size: 8px;
+	color: #00A4FF;
+	margin:5.5px 15px 5px 13.5px;
+}
+.end-right{
+	position: absolute;
+	top: 64.5px;
+	left: 513px;
+}
+.end-right>ul>li{
+	float: left;
+	margin-right: 73px;
+}
+.first-nav p{
+	display: block;
+	font-size: 8px;
+}
+.first-nav li a{
+	font-size: 6px;
+	color: #333;
+}
